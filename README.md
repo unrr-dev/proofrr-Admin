@@ -17,7 +17,7 @@ Standalone React + Vite admin dashboard for Proofrr.
 ## Project Setup
 
 ```bash
-cd admin-dashboard
+cd admin-dashboard 
 npm install
 npm run dev
 ```
