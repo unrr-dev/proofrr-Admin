@@ -339,15 +339,15 @@ strong {
 
 .donut-layout {
   display: grid;
-  grid-template-columns: minmax(118px, 156px) minmax(0, 1fr);
+  grid-template-columns: minmax(106px, 142px) minmax(0, 1fr);
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   min-width: 0;
 }
 
 .donut {
-  width: clamp(116px, 20vw, 156px);
-  height: clamp(116px, 20vw, 156px);
+  width: clamp(106px, 18vw, 142px);
+  height: clamp(106px, 18vw, 142px);
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -385,27 +385,27 @@ strong {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   background: #f7fbff;
   border: 1px solid rgba(14, 60, 105, 0.12);
   border-radius: 10px;
-  padding: 8px 10px;
-  font-size: 0.84rem;
+  padding: 7px 9px;
+  font-size: 0.78rem;
   min-width: 0;
 }
 
 .legend-key {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 6px;
   min-width: 0;
   overflow: hidden;
 }
 
 .legend-label {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.2;
+  white-space: normal;
+  overflow-wrap: anywhere;
   min-width: 0;
 }
 
@@ -420,11 +420,12 @@ strong {
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 6px;
   color: var(--text-muted);
   white-space: nowrap;
   flex-shrink: 0;
   min-width: 0;
+  font-size: 0.95em;
 }
 
 .legend-meta strong {
